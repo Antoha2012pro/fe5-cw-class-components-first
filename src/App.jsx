@@ -24,7 +24,7 @@ export default class App extends Component {
   };
 
   // 2 варіант:
-  handleDecrement(number) { // просто функція, назва вигадана
+  handleDecrement = (number) => { // просто функція, назва вигадана
     this.setState({ count: this.state.count - number });
   };
 
